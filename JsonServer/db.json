@@ -1,0 +1,34 @@
+{
+  "studentList": [
+    {
+      "id": 1677836801493,
+      "name": "Lam Linh",
+      "age": 30,
+      "status": "Allow"
+    },
+    {
+      "id": 1677837418738,
+      "name": "Nò Nịu Đạn",
+      "age": 30,
+      "status": "Ban"
+    },
+    {
+      "id": 1677837470925,
+      "name": "Đinh Bá Đá",
+      "age": 18,
+      "status": "Allow"
+    },
+    {
+      "id": 1677837518267,
+      "name": "Tạ Văn Thế",
+      "age": 70,
+      "status": "Ban"
+    },
+    {
+      "id": 1677837560173,
+      "name": "Trạc Văn Đoành",
+      "age": 46,
+      "status": "Ban"
+    }
+  ]
+}
