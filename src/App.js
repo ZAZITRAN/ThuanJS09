@@ -99,7 +99,7 @@ function App() {
           rules={[
             { whitespace: true, message: "Tên học viên không được để trống" },
             { min: 4, message: "Tên học viên tối thiểu 4 ký tự" },
-            { required: true, message: "Vui lòng nhập tên người dùng" }
+            { required: true, message: "Vui lòng nhập tên học viên" }
           ]} hasFeedback >
           <Input placeholder='Tên học viên' style={{ width: "300px" }} />
         </Form.Item>

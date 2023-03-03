@@ -36,9 +36,6 @@ const ModalEdit = (props) => {
                 layout="horizontal"
                 autoComplete='off'
                 onFinish={(value) => {
-                  console.log(1,id);
-                  console.log(value);
-                 
                   let newData = { id: id, name: value.name, email: value.email, age: value.age, status: value.status }
                   axios.put(`http://localhost:3000/studentList/${id}`,
                     newData)
@@ -49,7 +46,7 @@ const ModalEdit = (props) => {
                   rules={[
                     { whitespace: true, message: "Tên học viên không được để trống" },
                     { min: 4, message: "Tên học viên tối thiểu 4 ký tự" },
-                    { required: true, message: "Vui lòng nhập tên người dùng" }
+                    { required: true, message: "Vui lòng nhập tên học viên" }
                   ]} hasFeedback >
                   <Input placeholder='Tên học viên' style={{ width: "300px" }} />
                 </Form.Item>
